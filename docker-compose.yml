@@ -8,6 +8,8 @@ services:
     environment:
       - SERVER_URL=http://localhost:8081
       - API_KEY=123456
+      - GLOBAL_API_KEY=123456
+      - AUTHENTICATION_API_KEY=123456
       # CONFIGURAÇÃO DO BANCO DE DADOS
       - DATABASE_ENABLED=true
       - DATABASE_PROVIDER=postgresql  # <--- A LINHA QUE FALTAVA

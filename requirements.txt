@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+langgraph
+pypdf
+pandas
+openpyxl
+tiktoken
